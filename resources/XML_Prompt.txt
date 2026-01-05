@@ -1,0 +1,9 @@
+Sukurk testą programavimo žinioms patikrinti.
+Taisyklės:
+1. Testai turi būti parašyti lietuvių kalba.
+2. Išvestis turi būti pateikta Moodle XML formatu.
+3. Išvestyje turi būti tik XML formatu užrašytas failo turinys, be jokių perteklinių žodžių bei Markdown žymų.
+4. Jeigu klausimuose yra naudojamas simbolis <, >, &, " arba ', jie turi būti tinkamai užkoduoti XML sintakse (pvz., &lt; &gt; &amp; &quot; &apos;).
+5. Klausimai turi būti panašūs sudėtingumo atžvilgiu į pateiktus pavyzdyje
+
+Išvesties pavyzdys:

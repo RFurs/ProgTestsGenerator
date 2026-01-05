@@ -1,0 +1,64 @@
+// Klausimas 1
+::Reikšmės keitimas per rodyklę::
+Duotas kodas:
+int x \= 5;
+int *p \= &x;
+Kurie veiksmai teisingai pakeičia kintamojo x reikšmę?
+{
+~%50%*p \= 10;
+~%50%x \= *p + 5;
+~%0%p \= 10;
+~%0%&x \= 10;
+}
+
+// Klausimas 2
+::Masyvo elemento pasiekimas::
+Duota:
+int a[5];
+int *p \= a;
+Kurie reiškiniai pasiekia trečią masyvo elementą?
+{
+~%50%a[2];
+~%50%*(p + 2);
+~%0%*p + 2;
+~%0%p[3];
+}
+
+// Klausimas 3
+::Masyvo perdavimas funkcijai::
+Turime funkciją: void apdoroti(int *p, int n);
+Ir masyvą: int mas[10];
+Kurie kvietimai yra sintaksiškai teisingi?
+{
+~%33.33333%apdoroti(mas, 10);
+~%33.33333%apdoroti(&amp;mas[0], 10);
+~%33.33333%apdoroti(mas + 2, 8);
+~%0%apdoroti(*mas, 10);
+~%0%apdoroti(&amp;mas, 10);
+}
+
+// Klausimas 4
+::Adreso gavimas ir priskyrimas::
+Duota:
+int n \= 100;
+int *ptr;
+Kurie sakiniai teisingai priskiria kintamojo n adresą rodyklei ptr?
+{
+~%100%ptr \= &n;
+~%0%*ptr \= n;
+~%0%ptr \= n;
+~%0%*ptr \= &n;
+}
+
+// Klausimas 5
+::Dereferencijavimas ir prioritetai::
+Duota:
+int x \= 10;
+int *p \= &x;
+Kuri išraiška padidins pačią x reikšmę vienetu?
+{
+~%50%(*p)++;
+~%50%*p \= *p + 1;
+~%0%*p++;
+~%0%p++;
+}

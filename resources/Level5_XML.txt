@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- ====================== 1 ====================== -->
+  <question type="essay">
+    <name>
+      <text>Prefikso tikrinimo funkcija</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[
+Sukurkite funkciją, kuriai perduodami 2 simbolių masyvai (simbolių eilutės).
+Funkcija turi patikrinti, ar pirmoji eilutė yra antrosios prefiksas.
+Pavyzdys:
+<pre><code>
+char a[] = "pre";
+char b[] = "prefix";
+
+isPrefix(a, b)  // true
+
+char c[] = "pix";
+isPrefix(c, b)  // false
+</code></pre>
+      ]]></text>
+    </questiontext>
+    <generalfeedback format="html"><text></text></generalfeedback>
+    <responseformat>editor</responseformat>
+    <responserequired>1</responserequired>
+    <defaultgrade>1</defaultgrade>
+  </question>
+
+  <!-- ====================== 2 ====================== -->
+  <question type="essay">
+    <name>
+      <text>Filter funkcija su funkcijos rodykle</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[
+Sukurkite funkciją <b>filter()</b>, kuri priima rodyklę į kitą funkciją ir masyvą.
+Funkcija turi grąžinti naują masyvą, sudarytą tik iš tų elementų, kuriems perduota funkcija grąžina tiesą.
+
+Pavyzdys:
+<pre><code>
+int arr[] = {-1,-2,-3,1,2,3,4};
+int newArr[] = filter(arr, 4, greaterThanTwo);
+// Rezultatas: newArr = {3,4}
+</code></pre>
+      ]]></text>
+    </questiontext>
+    <generalfeedback format="html"><text></text></generalfeedback>
+    <responseformat>editor</responseformat>
+    <responserequired>1</responserequired>
+    <defaultgrade>1</defaultgrade>
+  </question>
+
+  <!-- ====================== 3 ====================== -->
+  <question type="essay">
+    <name>
+      <text>Map funkcija</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[
+Parašykite funkciją <b>map()</b>, kuri priima rodyklę į kitą funkciją, masyvo elementų skaičių ir rodyklę į masyvą.
+Funkcija turi modifikuoti masyvą, kiekvienam elementui pritaikius perduotą funkciją.
+
+Pavyzdys:
+<pre><code>
+int arr[] = {1,2,3,4};
+map(arr, 4, multiplyByTwo);
+// Rezultatas: arr = {2,4,6,8}
+</code></pre>
+      ]]></text>
+    </questiontext>
+    <generalfeedback format="html"><text></text></generalfeedback>
+    <responseformat>editor</responseformat>
+    <responserequired>1</responserequired>
+    <defaultgrade>1</defaultgrade>
+  </question>
+
+  <!-- ====================== 4 ====================== -->
+  <question type="essay">
+    <name>
+      <text>Fold funkcija</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[
+Parašykite funkciją <b>fold()</b>, kuri priima rodyklę į masyvą, masyvo elementų skaičių, pradinę akumuliatoriaus reikšmę ir rodyklę į funkciją,
+kuri apibrėžia, kaip elementai turi būti sujungti.
+
+Pavyzdys:
+<pre><code>
+int arr[] = {1,2,3,4};
+int res = fold(arr, 4, 0, sum);
+// Rezultatas: res = 10
+</code></pre>
+      ]]></text>
+    </questiontext>
+    <generalfeedback format="html"><text></text></generalfeedback>
+    <responseformat>editor</responseformat>
+    <responserequired>1</responserequired>
+    <defaultgrade>1</defaultgrade>
+  </question>
+
+  <!-- ====================== 5 ====================== -->
+  <question type="essay">
+    <name>
+      <text>Rikiavimas pagal palyginimo funkciją</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[
+Sukurkite funkciją <b>sortBy()</b>, kuri priima rodyklę į palyginimo funkciją.
+Funkcija turi išrikiuoti perduotą masyvą naudojant palyginimo funkciją.
+
+Pavyzdys:
+<pre><code>
+int arr[] = {5, 1, 4, 2};
+sortBy(arr, 4, compareAscending);
+// Rezultatas: arr = {1,2,4,5}
+</code></pre>
+      ]]></text>
+    </questiontext>
+    <generalfeedback format="html"><text></text></generalfeedback>
+    <responseformat>editor</responseformat>
+    <responserequired>1</responserequired>
+    <defaultgrade>1</defaultgrade>
+  </question>
+
+</quiz>

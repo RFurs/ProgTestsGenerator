@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- =================== QUESTION 1 =================== -->
+  <question type="shortanswer">
+    <name>
+      <text>Java paveldėjimas – A, B, C konstruktoriai</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[
+Nurodykite programos išvestį:
+<pre><code>
+public class X {
+    public static void main(String[] args) { new C(); }
+}
+class A {
+    public A() { System.out.println("A"); }
+}
+class B extends A {
+    public B() { System.out.println("B"); }
+}
+class C extends B {
+    public C() { new A(); System.out.println("C"); }
+}
+</code></pre>
+      ]]></text>
+    </questiontext>
+    <generalfeedback format="html"><text></text></generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>ABAC</text>
+    </answer>
+  </question>
+
+  <!-- =================== QUESTION 2 =================== -->
+  <question type="shortanswer">
+    <name>
+      <text>Rekursija – funkcija f(x)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[
+Kokį skaičių išves programa?
+<pre><code>
+public class Test {
+    public static void main(String[] args) {
+        Test test = new Test();
+        System.out.println(test.f(3));
+    }
+    public int f(int x) {
+        if (x == 0)
+            return 1;
+        if (x == 1)
+            return 2;
+        return (x * (f(x-1) + f(x-2)));
+    }
+}
+</code></pre>
+      ]]></text>
+    </questiontext>
+    <generalfeedback format="html"><text></text></generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>24</text>
+    </answer>
+  </question>
+
+  <!-- =================== QUESTION 3 =================== -->
+  <question type="shortanswer">
+    <name>
+      <text>Masyvo iteracija – sąlyginiai sudėjimai</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[
+Kokį skaičių išves programa?
+<pre><code>
+public class Test {
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3};
+        int x = 0;
+        for (int i = 0; i < arr.length; i++) {
+            x += arr[i];
+            if (arr[i] % 2 == 0) {
+                x -= i;
+            }
+        }
+        System.out.println(x);
+    }
+}
+</code></pre>
+      ]]></text>
+    </questiontext>
+    <generalfeedback format="html"><text></text></generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>5</text>
+    </answer>
+  </question>
+
+  <!-- =================== QUESTION 4 =================== -->
+  <question type="shortanswer">
+    <name>
+      <text>Statiniai laukai ir konstruktoriai</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[
+Ką išves programa?
+<pre><code>
+public class A {
+    public static void main(String args[]) { new A(); }
+    public A() { System.out.println("A"); }
+    B b1 = new B();
+    B b2 = new B();
+    static A a = new A();
+}
+class B {
+    public B() { System.out.println("B"); }
+}
+</code></pre>
+      ]]></text>
+    </questiontext>
+    <generalfeedback format="html"><text></text></generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>BBABBA</text>
+    </answer>
+  </question>
+
+  <!-- =================== QUESTION 5 =================== -->
+  <question type="shortanswer">
+    <name>
+      <text>Ciklas su break sąlyga</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[
+Kokį skaičių išves programa?
+<pre><code>
+public class X {
+    public static void main(String[] args) {
+        int x = 0;
+        for (int i = 0, j = 50; i < 100; i++, j--) {
+            x++;
+            if (j < 25) {
+                break;
+            } else {
+                x++;
+            }
+        }
+        System.out.println(x);
+    }
+}
+</code></pre>
+      ]]></text>
+    </questiontext>
+    <generalfeedback format="html"><text></text></generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <usecase>0</usecase>
+    <answer fraction="100">
+      <text>53</text>
+    </answer>
+  </question>
+
+</quiz>

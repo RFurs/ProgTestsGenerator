@@ -1,0 +1,40 @@
+::Prefikso tikrinimo funkcija::
+Sukurkite funkciją, kuriai perduodami 2 simbolių masyvai (simbolių eilutės).
+Funkcija turi patikrinti, ar pirmoji eilutė yra antrosios prefiksas.
+{}
+  
+::Filter funkcija su funkcijos rodykle::
+Sukurkite funkciją filter(), kuri priima rodyklę į kitą funkciją ir masyvą.
+Funkcija turi grąžinti naują masyvą, sudarytą tik iš tų elementų, kuriems perduota funkcija grąžina tiesą.
+Pavyzdys:
+int arr[] = \{-1,-2,-3,1,2,3,4\};
+int newArr[] = filter(arr, 4, greaterThanTwo);
+Rezultatas: newArr = \{3,4\}
+{}
+  
+::Map funkcija::
+Parašykite funkciją map(), kuri priima rodyklę į kitą funkciją, masyvo elementų skaičių ir rodyklę į masyvą.
+Funkcija turi modifikuoti masyvą, kiekvienam elementui pritaikius perduotą funkciją.
+Pavyzdys:
+int arr[] = \{1,2,3,4\};
+map(arr, 4, multiplyByTwo);
+Rezultatas: arr = \{2,4,6,8\}
+{}
+  
+::Fold funkcija::
+Parašykite funkciją fold(), kuri priima rodyklę į masyvą, masyvo elementų skaičių, pradinę akumuliatoriaus reikšmę ir rodyklę į funkciją, kuri apibrėžia kaip elementai turi būti sujungti.
+Funkcija turi ,,sulankstyti‘‘ masyvą į vieną reikšmę.
+Pavyzdys:
+int arr[] = \{1,2,3,4\};
+int res = fold(arr,4,0,sum);
+Rezultatas: res = 10
+{}
+  
+::Rikiavimas pagal palyginimo funkciją::
+Sukurkite funkciją sortBy(), kuri priima rodyklę į palyginimo funkciją.
+Funkcija turi išrikiuoti perduotą masyvą naudojant palyginimo funkciją.
+Pavyzdys:
+int arr[] = \{5, 1, 4, 2\};
+sortBy(arr, 4, compareAscending);
+Rezultatas: arr = \{1,2,4,5\}
+{}

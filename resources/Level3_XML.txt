@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Klausimas 1 -->
+  <question type="multichoice">
+    <name>
+      <text>Reikšmės keitimas per rodyklę</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[
+      Duotas kodas:
+      <pre>
+      int x = 5;
+      int *p = &x;
+      </pre>
+      Kurie veiksmai <b>teisingai pakeičia</b> kintamojo <b>x</b> reikšmę?
+      ]]></text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+
+    <answer fraction="50">
+      <text>*p = 10;</text>
+    </answer>
+    <answer fraction="50">
+      <text>x = *p + 5;</text>
+    </answer>
+    <answer fraction="0">
+      <text>p = 10;</text>
+    </answer>
+    <answer fraction="0">
+      <text>&amp;x = 10;</text>
+    </answer>
+  </question>
+
+  <!-- Klausimas 2 -->
+  <question type="multichoice">
+    <name>
+      <text>Masyvo elemento pasiekimas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[
+      Duota:
+      <pre>
+      int a[5];
+      int *p = a;
+      </pre>
+      Kurie reiškiniai pasiekia <b>trečią masyvo elementą</b>?
+      ]]></text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+
+    <answer fraction="50">
+      <text>a[2]</text>
+    </answer>
+    <answer fraction="50">
+      <text>*(p + 2)</text>
+    </answer>
+    <answer fraction="0">
+      <text>*p + 2</text>
+    </answer>
+    <answer fraction="0">
+      <text>p[3]</text>
+    </answer>
+  </question>
+
+  <!-- Klausimas 3 -->
+<question type="multichoice">
+    <name>
+      <text>Masyvo perdavimas į funkciją</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[
+      Turime funkciją: <code>void apdoroti(int *p, int n);</code><br>
+      Ir masyvą: <code>int mas[10];</code><br><br>
+      Kurie kvietimai yra <b>sintaksiškai teisingi</b>?
+      ]]></text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+
+    <answer fraction="33.33333">
+      <text>apdoroti(mas, 10);</text>
+    </answer>
+    <answer fraction="33.33333">
+      <text>apdoroti(&amp;mas[0], 10);</text>
+    </answer>
+    <answer fraction="33.33333">
+      <text>apdoroti(mas + 2, 8);</text>
+    </answer>
+    <answer fraction="0">
+      <text>apdoroti(*mas, 10);</text>
+    </answer>
+    <answer fraction="0">
+      <text>apdoroti(&amp;mas, 10);</text>
+    </answer>
+  </question>
+
+  <!-- Klausimas 4 -->
+<question type="multichoice">
+    <name>
+      <text>Adreso gavimas ir priskyrimas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[
+      Duota:
+      <pre>
+      int n = 100;
+      int *ptr;
+      </pre>
+      Kurie sakiniai <b>teisingai</b> priskiria kintamojo <b>n</b> adresą rodyklei <b>ptr</b>?
+      ]]></text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+
+    <answer fraction="100">
+      <text>ptr = &amp;n;</text>
+    </answer>
+    <answer fraction="0">
+      <text>*ptr = n;</text>
+    </answer>
+    <answer fraction="0">
+      <text>ptr = n;</text>
+    </answer>
+    <answer fraction="0">
+      <text>*ptr = &amp;n;</text>
+    </answer>
+  </question>
+
+<!-- Klausimas 5 -->
+<question type="multichoice">
+    <name>
+      <text>Dereferencijavimas ir prioritetai</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[
+      Duota:
+      <pre>
+      int x = 10;
+      int *p = &x;
+      </pre>
+      Kuri išraiška <b>padidins pačią x reikšmę</b> vienetu?
+      ]]></text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+
+    <answer fraction="50">
+      <text>(*p)++;</text>
+    </answer>
+    <answer fraction="50">
+      <text>*p = *p + 1;</text>
+    </answer>
+    <answer fraction="0">
+      <text>*p++;</text>
+    </answer>
+    <answer fraction="0">
+      <text>p++;</text>
+    </answer>
+  </question>
+
+</quiz>

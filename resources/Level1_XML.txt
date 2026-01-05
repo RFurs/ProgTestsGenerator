@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text>Konstantos C kalboje</text>
+    </name>
+    <questiontext format="moodle_auto_format">
+      <text>Kuris raktažodis naudojamas pastoviam (kurio reikšmė negali pasikeisti) kintamajam apibrėžti?</text>
+    </questiontext>
+    <answer fraction="0">
+      <text>final</text>
+    </answer>
+    <answer fraction="0">
+      <text>constant</text>
+    </answer>
+    <answer fraction="0">
+      <text>static</text>
+    </answer>
+    <answer fraction="100">
+      <text>const</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Kokį tipą grąžina funkcija pagal nutylėjimą</text>
+    </name>
+    <questiontext format="moodle_auto_format">
+      <text>Kokį duomenų tipą grąžina funkcija pagal nutylėjimą?</text>
+    </questiontext>
+    <answer fraction="0">
+      <text>void</text>
+    </answer>
+    <answer fraction="100">
+      <text>int</text>
+    </answer>
+    <answer fraction="0">
+      <text>char</text>
+    </answer>
+    <answer fraction="0">
+      <text>float</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Vienos eilutės komentaras</text>
+    </name>
+    <questiontext format="moodle_auto_format">
+      <text>Kaip teisingai užrašyti vienos eilutės komentarą?</text>
+    </questiontext>
+    <answer fraction="0">
+      <text># komentaras</text>
+    </answer>
+    <answer fraction="0">
+      <text>/* komentaras */</text>
+    </answer>
+    <answer fraction="100">
+      <text>// komentaras</text>
+    </answer>
+    <answer fraction="0">
+      <text>% komentaras</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Antraštės failas printf() funkcijai</text>
+    </name>
+    <questiontext format="html">
+      <text>Kuris antraštės failas reikalingas funkcijos printf() naudojimui?</text>
+    </questiontext>
+    <answer fraction="0">
+      <text><![CDATA[&lt;stdlib.h&gt;]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[&lt;stdprint.h&gt;]]></text>
+    </answer>
+    <answer fraction="100">
+      <text><![CDATA[&lt;stdio.h&gt;]]></text>
+    </answer>
+    <answer fraction="0">
+      <text><![CDATA[&lt;stdoutput.h&gt;]]></text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Sveikas kintamasis be ženklo</text>
+    </name>
+    <questiontext format="moodle_auto_format">
+      <text>Kuri iš žemiau pateiktų raktažodžių kombinacijų naudojama tam, kad apibrėžti teigiamą sveikojo tipo kintamąjį?</text>
+    </questiontext>
+    <answer fraction="100">
+      <text>unsigned int</text>
+    </answer>
+    <answer fraction="0">
+      <text>signed int</text>
+    </answer>
+    <answer fraction="0">
+      <text>positive int</text>
+    </answer>
+    <answer fraction="0">
+      <text>nosign int</text>
+    </answer>
+  </question>
+</quiz>

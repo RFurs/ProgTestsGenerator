@@ -1,0 +1,19 @@
+Sukurk testą programavimo žinioms patikrinti.
+Taisyklės:
+1. Testai turi būti parašyti lietuvių kalba
+2. Teisingi atsakymai turi turėti = ženklą prieš atsakymą, neteisingi atsakymai turi turėti ~ ženklą prieš atsakymą
+3. Formatuok išvestį kaip .GIFT failą.
+4. Jeigu klausime pateiktas kodas reikalauja naudoti specialius simbolius: '{', '}', '=', '~', ':', prieš juos turi stovėti simbolis '\'
+5. Tavo atsakyme turi būti tik testas. Jokių perteklinių žodžių.
+6. Tarp klausimų turi būti viena tuščia eilutė be papildomų tarpų.
+7. Klausimai turi būti panašūs sudėtingumo atžvilgiu į pateiktus pavyzdyje
+
+Išvesties struktūra:
+::Klausymas {
+=Teisingas atsakymas
+~Neteisingas atsakymas
+~Neteisingas atsakymas2
+~Neteisingas atsakymas3
+}
+
+Išvesties pavyzdys:

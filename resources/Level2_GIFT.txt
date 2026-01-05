@@ -1,0 +1,43 @@
+::Duotas funkcijos prototipas:
+void fun(int,char,char[]);
+Pasirinkite korektiškus teiginius: {
+~Funkcija grąžina void tipo kintamąjį
+~Funkcija negali viduje turėti return sakinio
+~%50%Funkcija nieko negrąžina
+~%50%Funkcija gali viduje turėti return sakinį
+}
+
+::Funkcijos kreipiniai::
+Duotas funkcijos prototipas:
+void fun(int,char,char[]);
+Pasirinkite korektiškus kreipinius: {
+~%25%fun(0,0,0)
+~%25%fun(1,'1',"1")
+~%25%fun('2',2,"2")
+~%25%fun('a','a',"a")
+}
+
+::Funkcijos aprašai::
+Nurodykite kurie sakiniai gali būti korektiški funkcijos fun aprašai: {
+~void fun(0);
+~int fun;
+~%50%void fun(void);
+~%50%int fun(int, int);
+}
+
+::Kodo fragmento analizė::
+Yra toks sėkmingai sukompiliuotas kodo fragmentas:
+a(b[c[d()]])
+Pasirinkite teisingus teiginius: {
+~%50%d yra funkcija, kurios grąžinamas tipas gali būti int
+~d yra funkcija, kurios grąžinamas tipas gali būti void
+~b yra funkcija, kuri priima vieną parametrą
+~%50%c yra masyvas
+~d yra masyvas
+}
+
+::Kintamojo x apibrėžimas::
+Pateikite kintamojo x apibrėžimą, jeigu apibrėžimas yra toks:
+x yra 10 elementų masyvas, kuriame saugomi int tipo rodyklių adresai {
+= int\* x[10];
+}

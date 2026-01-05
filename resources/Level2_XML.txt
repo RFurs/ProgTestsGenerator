@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text>Duotas funkcijos prototipas:
+void fun(int,char,char[]);
+Pasirinkite ...</text>
+    </name>
+    <questiontext format="moodle_auto_format">
+      <text>Duotas funkcijos prototipas:
+void fun(int,char,char[]);
+Pasirinkite korektiškus teiginius:</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Funkcija grąžina void tipo kintamąjį</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Funkcija negali viduje turėti return sakinio</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="moodle_auto_format">
+      <text>Funkcija nieko negrąžina</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="moodle_auto_format">
+      <text>Funkcija gali viduje turėti return sakinį</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Funkcijos aprašai</text>
+    </name>
+    <questiontext format="moodle_auto_format">
+      <text>Nurodykite kurie sakiniai gali būti korektiški funkcijos fun aprašai:</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>void fun(0);</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>int fun;</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="moodle_auto_format">
+      <text>void fun(void);</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="moodle_auto_format">
+      <text>int fun(int, int);</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Funkcijos kreipiniai</text>
+    </name>
+    <questiontext format="moodle_auto_format">
+      <text>Duotas funkcijos prototipas:
+void fun(int,char,char[]);
+Pasirinkite korektiškus kreipinius:</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="25" format="moodle_auto_format">
+      <text>fun(0,0,0)</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25" format="moodle_auto_format">
+      <text><![CDATA[fun(1,'1',"1")]]></text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25" format="moodle_auto_format">
+      <text><![CDATA[fun('2',2,"2")]]></text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25" format="moodle_auto_format">
+      <text><![CDATA[fun('a','a',"a")]]></text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="shortanswer">
+    <name>
+      <text>Kintamojo x apibrėžimas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Pateikite kintamojo x apibrėžimą, jeigu apibrėžimas yra toks: x yra 10 elementų masyvas, kuriame saugomi int tipo rodyklių adresai</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>int\* x[10];</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Kodo fragmento analizė</text>
+    </name>
+    <questiontext format="moodle_auto_format">
+      <text>Yra toks sėkmingai sukompiliuotas kodo fragmentas:
+a(b[c[d()]])
+Pasirinkite teisingus teiginius:</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="moodle_auto_format">
+      <text>d yra funkcija, kurios grąžinamas tipas gali būti int</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>d yra funkcija, kurios grąžinamas tipas gali būti void</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>b yra funkcija, kuri priima vieną parametrą</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="moodle_auto_format">
+      <text>c yra masyvas</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>d yra masyvas</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

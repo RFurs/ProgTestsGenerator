@@ -1,0 +1,34 @@
+::Kuris raktažodis naudojamas pastoviam (kurio reikšmė negali pasikeisti) kintamajam apibrėžti?  {
+~final
+=const
+~constant
+~static
+}
+
+::Kokį duomenų tipą grąžina funkcija pagal nutylėjimą? {
+~void
+=int
+~char
+~float
+}
+
+::Kaip teisingai užrašyti vienos eilutės komentarą? {
+~\# komentaras
+~/* komentaras */
+=// komentaras
+=% komentaras
+}
+
+::Kuris antraštės failas reikalingas funkcijos printf() naudojimui? {
+~&lt;stdlib.h&gt;
+~&lt;stdprint.h&gt;
+=&lt;stdio.h&gt;
+~&lt;stdoutput.h&gt;
+}
+
+::Kuri iš žemiau pateiktų raktažodžių kombinacijų naudojama tam, kad apibrėžti teigiamą sveikojo tipo kintamąjį? {
+=unsigned int
+~signed int
+~positive int
+~nosign int
+}
