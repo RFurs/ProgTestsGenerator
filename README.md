@@ -3,7 +3,7 @@ ProgTestsGenerator – tai yra Java programa skirta tam tikro kognityvinio lygio
 
 # Programos paleidimas
 1) Atsisiųsti programą
-2) Atidaryti pom.xml failą mėgstamiausioje IDE. Turi būti galimybė atidaryti kaip projektą
+2) Atidaryti pom.xml failą mėgstamiausioje IDE, palaikančioje Java. Turi būti galimybė atidaryti kaip projektą
 3) Sukurti ir nukopijuoti Gemini bei ChatGPT API raktus
 4) Paleisti Application.java failą
 5) Įvesti anksčiau sukurtus raktus, papildomai galima kitame skirtuke pasirinkti DKM modelius
