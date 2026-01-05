@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="420.0" prefWidth="460.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Testų generavimas">
+            <content>
+                <fx:include source="tests-generator-view.fxml" />
+            </content>
+          </Tab>
+          <Tab text="API Raktai">
+            <content>
+              <fx:include source="api-keys-view.fxml" />
+            </content>
+          </Tab>
+            <Tab text="DKM modeliai">
+            <content>
+                <fx:include source="api-models-view.fxml" />
+            </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</StackPane>
